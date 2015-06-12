@@ -1,0 +1,12 @@
+Name; Corey Hom
+BU-ID: chom3
+B-Number: B00398193
+Notes:
+	My logic in some code was a little off so not all results matched correctly. 
+	However, for a couple of runs, my output was actually higher than the correct output. 
+	The fully associative cache with hot-cold approximation policies, set associative
+	cache with next-line prefetching/prefetch-on-a-miss both don't work correctly. I tried to create
+	a most recently used, which you can find in extracredit.cpp.
+	
+	To generate: g++ extracredit.cpp
+	To use: ./a.out -input file- -output file-
